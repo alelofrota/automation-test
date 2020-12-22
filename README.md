@@ -13,9 +13,9 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 
 # Introdução 
 
-- Teste 1: No site dos correios, pesquisar um CEP e dar output das informações retornadas.
+- Passo 1) No site dos correios, pesquisar um CEP e dar output das informações retornadas.
 
-- Teste 2: No site dos correios, pesquisar um logradouro que retorne mais de um resultado e dar output de todos os dados da tabela retornada.
+- Passo 2) No site dos correios, pesquisar um logradouro que retorne mais de um resultado e dar output de todos os dados da tabela retornada.
 
 # Tecnologias requeridas
 -	Java

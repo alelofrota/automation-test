@@ -8,9 +8,9 @@ Ao longo de sua trajetória, a instituição passou a atuar em novos mercados, e
 
 O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automotivas como combustível, manutenção e documentação. Você define os parâmetros de utilização e controla como e onde os seus cartões podem ser utilizados, proporcionando redução de custos para a sua operação e melhor performance para a sua frota.
 
-# O desafio de automação do Alelo Frota consiste em duas partes, uma de Automação WEB e outra de Automação de API. Desejamos boa sorte!
+# **O desafio de automação do Alelo Frota consiste em duas partes, uma de Automação WEB e outra de Automação de API. Desejamos boa sorte!**
 
-# DESAFIO AUTOMAÇÃO - WEB #
+# Parte 1 - DESAFIO AUTOMAÇÃO - WEB #
 
 # Introdução 
 
@@ -44,7 +44,7 @@ Elaborar os testes de automação abaixo e disponibilizar em repositório web, a
 - Criar repositório web aberto ao público: desafio-alelo-{nome do participante}
 
 
-# DESAFIO AUTOMAÇÃO - API # 
+# Parte 2 - DESAFIO AUTOMAÇÃO - API # 
 
 # Introdução 
 

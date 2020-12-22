@@ -24,10 +24,10 @@ Elaborar os testes de automação abaixo e disponibilizar em repositório web, a
 
 # **O que gostaríamos de ver neste desafio**
 1.BDD
- 1. Escrita dos cenários
- 2. Reutilização dos Gherkins
- 3. Legibilidade
- 4. Estrutura do projeto
+2. Escrita dos cenários
+3. Reutilização dos Gherkins
+4. Legibilidade
+5. Estrutura do projeto
 
 # **O que será avaliado**
 1.Código fonte
@@ -76,9 +76,9 @@ Serviços disponiveis:
 
 # **O que gostaríamos de ver neste desafio**
 1.BDD
- 1. Escrita dos cenários
- 2. Reutilização dos Gherkins
- 3. Legibilidade
+2. Escrita dos cenários
+3. Reutilização dos Gherkins
+4. Legibilidade
 
 2.Desenvolvimento dos Testes Integrados 
  1. Estrutura do projeto
@@ -113,4 +113,3 @@ Serviços disponiveis:
 -	Criar branch a partir da master como o seguinte padrão:	desafio/alelo_{nome do participante}
 
 Boa sorte!
-

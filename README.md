@@ -1,3 +1,14 @@
+# Sobre a Alelo
+
+A Alelo é uma empresa de serviços financeiros, especializada em benefícios, incentivos e gestão de despesas corporativas, que tem como objetivo facilitar o dia a dia das pequenas, médias e grandes empresas, bem como de estabelecimentos comerciais parceiros da sua rede de aceitação.
+
+Fundada em 2003 pelo banco CBSS (Companhia Brasileira de Soluções e Serviços), a companhia hoje pertence ao Grupo Elopar, holding fruto de uma parceria do Banco do Brasil com o Bradesco.
+
+Ao longo de sua trajetória, a instituição passou a atuar em novos mercados, e hoje conta com um amplo portfólio de soluções voltadas aos segmentos de alimentação, mobilidade, cultura, saúde e premiação.
+
+O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automotivas como combustível, manutenção e documentação. Você define os parâmetros de utilização e controla como e onde os seus cartões podem ser utilizados, proporcionando redução de custos para a sua operação e melhor performance para a sua frota.
+
+
 # DESAFIO AUTOMAÇÃO - WEB #
 
 # Introdução 
@@ -33,16 +44,6 @@
 
 
 # DESAFIO AUTOMAÇÃO - API # 
-
-# Sobre a Alelo
-
-A Alelo é uma empresa de serviços financeiros, especializada em benefícios, incentivos e gestão de despesas corporativas, que tem como objetivo facilitar o dia a dia das pequenas, médias e grandes empresas, bem como de estabelecimentos comerciais parceiros da sua rede de aceitação.
-
-Fundada em 2003 pelo banco CBSS (Companhia Brasileira de Soluções e Serviços), a companhia hoje pertence ao Grupo Elopar, holding fruto de uma parceria do Banco do Brasil com o Bradesco.
-
-Ao longo de sua trajetória, a instituição passou a atuar em novos mercados, e hoje conta com um amplo portfólio de soluções voltadas aos segmentos de alimentação, mobilidade, cultura, saúde e premiação.
-
-O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automotivas como combustível, manutenção e documentação. Você define os parâmetros de utilização e controla como e onde os seus cartões podem ser utilizados, proporcionando redução de custos para a sua operação e melhor performance para a sua frota.
 
 # Introdução 
 

@@ -43,7 +43,7 @@ Elaborar os testes de automação abaixo e disponibilizar em repositório web, a
  -	Report
 
 # **Envio do desafio**
-- Criar repositório web aberto ao público: desafio-alelo-{nome do participante}
+- Criar repositório web aberto ao público: desafio-web-alelo-{nome do participante}
 
 
 # Parte 2 - DESAFIO AUTOMAÇÃO - API # 
@@ -113,6 +113,6 @@ Serviços disponiveis:
 -	Junit
 
 # **Envio do desafio**
--	Criar branch a partir da master como o seguinte padrão:	desafio/alelo_{nome do participante}
+-	Criar branch a partir da master como o seguinte padrão:	desafio-api-alelo-{nome do participante}
 
 Boa sorte!

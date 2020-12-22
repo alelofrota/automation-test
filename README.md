@@ -115,4 +115,4 @@ Serviços disponiveis:
 # **Envio do desafio**
 -	Criar branch a partir da master como o seguinte padrão:	desafio-api-alelo-{nome do participante}
 
-Boa sorte!
+Mão na massa!

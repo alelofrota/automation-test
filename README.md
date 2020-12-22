@@ -1,4 +1,38 @@
-# DESAFIO AUTOMAÇÃO - API ALELO # 
+# DESAFIO AUTOMAÇÃO - WEB #
+
+# Introdução 
+
+- Teste 1: No site dos correios, pesquisar um CEP e dar output das informações retornadas.
+
+- Teste 2: No site dos correios, pesquisar um logradouro que retorne mais de um resultado e dar output de todos os dados da tabela retornada.
+
+# Tecnologias requeridas
+-	Java
+-	Selenium webdriver
+-	Cucumber 
+
+# **O que gostaríamos de ver neste desafio**
+1.BDD
+ 1. Escrita dos cenários
+ 2. Reutilização dos Gherkins
+ 3. Legibilidade
+ 4. Estrutura do projeto
+
+# **O que será avaliado**
+1.Código fonte
+ -	Boas práticas de programação
+ -	Padrões de projeto
+
+2.Testes 
+ -	Cobertura dos cenários
+ -	Execução
+ -	Report
+
+# **Envio do desafio**
+- Criar repositório web aberto ao público: desafio-alelo-{nome do participante}
+
+
+# DESAFIO AUTOMAÇÃO - API # 
 
 # Sobre a Alelo
 
@@ -35,7 +69,7 @@ Serviços disponiveis:
 
 -	Obs.: JDBC URL: jdbc:h2:mem:alelo-BookLibrary
 
-# O que gostaríamos de ver neste desafio
+# **O que gostaríamos de ver neste desafio**
 1.BDD
  1. Escrita dos cenários
  2. Reutilização dos Gherkins
@@ -72,7 +106,7 @@ Serviços disponiveis:
 -	Cucumber
 -	Junit
 
-# Envio do desafio
+# **Envio do desafio**
 -	Criar branch a partir da master como o seguinte padrão:	desafio/alelo_{nome do participante}
 
 Boa sorte!

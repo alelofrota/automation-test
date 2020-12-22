@@ -13,8 +13,8 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 
 # Introdução 
 
+Elaborar os testes de automação abaixo e disponibilizar em repositório web, aberto ao público, utilizando Selenium (Java):
 - Passo 1) No site dos correios, pesquisar um CEP e dar output das informações retornadas.
-
 - Passo 2) No site dos correios, pesquisar um logradouro que retorne mais de um resultado e dar output de todos os dados da tabela retornada.
 
 # Tecnologias requeridas

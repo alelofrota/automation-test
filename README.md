@@ -66,24 +66,23 @@ Para executar a aplicação é necessário:
 Serviços disponiveis:
 -	http://localhost:8080/swagger-ui.html#
 -	http://localhost:8080/h2-console
-
 -	Obs.: JDBC URL: jdbc:h2:mem:alelo-BookLibrary
+-	Serviços disponibilizados no swagger
+	
+	- POST; 
+	- GET; 
+	- PATCH;
 
 # **O que gostaríamos de ver neste desafio**
 1.BDD
  1. Escrita dos cenários
  2. Reutilização dos Gherkins
  3. Legibilidade
- 4. Estrutura do projeto
- 5. Descrição dos bugs encontrados
 
 2.Desenvolvimento dos Testes Integrados 
- 
- 1. Serviços disponibilizados no swagger
-	
-	- POST; 
-	- GET; 
-	- PATCH;
+ 1. Estrutura do projeto
+ 2. Requisições
+ 3. Asserts
 
 # **O que será avaliado**
 1.Código fonte
@@ -94,8 +93,11 @@ Serviços disponiveis:
  -	Cobertura dos cenários
  -	Execução
  -	Report
- 
-3.Build com os testes integrados
+	
+3.Build do projeto com os testes integrados
+
+**4.Descrição dos bugs encontrados abaixo:**
+- **BUGS:**
 
 # O que será um diferencial
 -	PIPE em qualquer ferramenta de CI

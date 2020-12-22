@@ -12,7 +12,7 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 
 # Introdução 
 
-O desafio se trata de uma API responsável pelo controle de livros dos estudantes. O cadastro de estudantes deverá ser único, e o mesmo não poderá ter livros duplicados. Para auxiliar o bibliotecário, o sistema deverá exibir a lista de estudantes em ordem alfabética para facilitar a visualização de livros dos estudantes. Caso neja necessário, o sistema permitirá atualização de dados dos estudantes. O sistema deverá validar a existencia do cpf para previnir informações duplicadas.
+O desafio se trata de uma API responsável pelo controle de livros dos estudantes. O cadastro de estudantes deverá ser único, e o mesmo não poderá ter livros duplicados. Para auxiliar o bibliotecário, o sistema deverá exibir a lista de estudantes em ordem alfabética para facilitar a visualização de livros dos estudantes. Caso seja necessário, o sistema permitirá atualização de dados dos estudantes validando a existência do cpf.
 
 # Tecnologias back-end
 -	Java

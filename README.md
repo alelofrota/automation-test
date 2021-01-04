@@ -113,6 +113,6 @@ Serviços disponiveis:
 -	Junit
 
 # **Envio do desafio**
--	Criar branch a partir da master como o seguinte padrão:	desafio-api-alelo-{nome do participante}
+-	Criar um Fork a partir desse repositório e abrir um Pull Request
 
 Mão na massa!

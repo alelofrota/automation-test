@@ -11,41 +11,6 @@ O Alelo Frota, que é uma plataforma que gerencia todas as suas despesas automot
 
 **O desafio de automação do Alelo Frota consiste em duas partes, uma de Automação WEB e outra de Automação de API. Desejamos boa sorte!**
 
-
-# Parte 1 - DESAFIO AUTOMAÇÃO - WEB #
-
-# Introdução 
-
-Elaborar os testes de automação abaixo e disponibilizar em repositório web, aberto ao público:
-1) No site dos correios, pesquisar um CEP e dar output das informações retornadas.
-2) No site dos correios, pesquisar um logradouro que retorne mais de um resultado e dar output de todos os dados da tabela retornada.
-
-# Tecnologias requeridas
--	Java
--	Selenium webdriver
--	Cucumber 
-
-# **O que gostaríamos de ver neste desafio**
-1.BDD
-2. Escrita dos cenários
-3. Reutilização dos Gherkins
-4. Legibilidade
-5. Estrutura do projeto
-
-# **O que será avaliado**
-1.Código fonte
- -	Boas práticas de programação
- -	Padrões de projeto
-
-2.Testes 
- -	Cobertura dos cenários
- -	Execução
- -	Report
-
-# **Envio do desafio**
-- Criar repositório web aberto ao público: desafio-web-alelo-{nome do participante}
-
-
 # Parte 2 - DESAFIO AUTOMAÇÃO - API # 
 
 # Introdução 

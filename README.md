@@ -1,4 +1,4 @@
-# Sobre a Alelo
+# Sobre a Alel
 
 A Alelo é uma empresa de serviços financeiros, especializada em benefícios, incentivos e gestão de despesas corporativas, que tem como objetivo facilitar o dia a dia das pequenas, médias e grandes empresas, bem como de estabelecimentos comerciais parceiros da sua rede de aceitação.
 

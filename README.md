@@ -82,3 +82,45 @@ Serviços disponiveis:
 -   Abrir e um Pull Request
 
 Mão na massa!
+
+# Lucas Bonanno Casanova 
+
+### https://www.linkedin.com/in/lucas-bonanno-casanova-automation-qa/
+
+### Estrutura
+É um Projeto Maven baseado na técnica de desenvolvimento BDD (Behavior Driven Development). Desenvolvido em Java e Gherkin com framework REST-assured e as ferramentas JUnit e Cucumber. 
+
+### Instalação
+Clonar o projeto do repositório para ter acesso. Executar o comando no terminal:
+```sh
+$ git clone https://github.com/LucasBonanno/desafio-api-alelo-lucas-bonanno-casanova
+```
+**Observações:**
+ - É necessário ter o plugin do Cucumber instalado na IDE.
+
+### Execução dos Casos de Testes
+A **RunTest.class** foi estruturada para ser o disparador. 
+Para executar basta alimentar a opção "tags" da anotação @CucumberOptions da classe executora.
+Exemplo:
+@CucumberOptions(
+		features = "src/test/resources/features/",
+		glue = "br.com.alelo.teste",
+        **tags = {"@Tags"},** 
+		plugin = {"pretty", "html:evidences/report-html", "json:evidences/report.json"},
+		monochrome = false,
+		snippets = SnippetType.CAMELCASE,
+		dryRun = false,
+		strict = true
+		)
+
+A classe executora está em: **/src/test/java/br/com/alelo/teste/runner/RunTest.java**
+
+Os Casos de Testes estão em:
+**/src/test/resources/features**
+
+### Plugins e Drivers
+
+| Plugin | Link |
+| ------ | ------ |
+| Cucumber Eclipse | https://marketplace.eclipse.org/content/cucumber-eclipse-plugin |
+| Cucumber Intellij | https://plugins.jetbrains.com/plugin/7212-cucumber-for-java|

@@ -1,0 +1,278 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-25T14:53:51.184Z",
+        "line": 9,
+        "name": "cadastrar um estudante e um livro",
+        "description": "",
+        "id": "validar-a-funcionalidade-da-api-para-cadastrar-estudantes;cadastrar-um-estudante-e-um-livro",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 30207900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "prencher dados para cadastrar o estudante",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.prencher_dados_para_cadastrar_o_estudante(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "email",
+                  "years",
+                  "cpf",
+                  "author",
+                  "name book",
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "Mohamad",
+                  "Zaker.18@hotmail.com",
+                  "27",
+                  "23939220899",
+                  "Autor1",
+                  "NomeLivro1",
+                  "Titulo1"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2143697400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enviar requisicao \"POST\" para api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                }
+              ],
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.enviarRequisicaoParaApi(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 15623500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validar retorno 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 16
+                }
+              ],
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validarRetorno(java.lang.Integer)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APIControleLivro"
+          },
+          {
+            "name": "@Cadastrar"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T14:53:53.472Z",
+        "line": 17,
+        "name": "listar todos os estudantes com ordem alfabética,cadastro único e livros não duplicados",
+        "description": "",
+        "id": "validar-a-funcionalidade-da-api-para-cadastrar-estudantes;listar-todos-os-estudantes-com-ordem-alfabética-cadastro-único-e-livros-não-duplicados",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 69002400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enviar requisicao GET para api",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.enviar_requisicao_GET_para_api()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "validar retorno 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validarRetorno(java.lang.Integer)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 15620600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validar se os estudantes com cadastro unico com cpf",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validar_se_os_estudantes_com_cadastro_unico_com_cpf()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 15622200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "validar se a lista em ordem alfabetica",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validar_se_a_lista_em_ordem_alfabetica()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 37756200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "validar se os livros não são duplicados",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validar_se_os_livros_nao_sao_duplicados()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APIControleLivro"
+          },
+          {
+            "name": "@ListarAll"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-25T14:53:53.641Z",
+        "line": 26,
+        "name": "alterar cadastro do estudante",
+        "description": "",
+        "id": "validar-a-funcionalidade-da-api-para-cadastrar-estudantes;alterar-cadastro-do-estudante",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "prencher dados para alterar cadastro de um estudante",
+            "match": {
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.prencher_dados_para_alterar_cadastro_de_um_estudante(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cpf",
+                  "name",
+                  "email"
+                ]
+              },
+              {
+                "cells": [
+                  "23939220899",
+                  "novo Nome",
+                  "email.novoEmail@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 147108800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enviar requisicao \"PATCH\" para api",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 18
+                }
+              ],
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.enviarRequisicaoParaApi(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "validar retorno 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "br.com.alelo.teste.stepdefinition.APIControleLivroSteps.validarRetorno(java.lang.Integer)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APIControleLivro"
+          },
+          {
+            "name": "@Alterar"
+          }
+        ]
+      }
+    ],
+    "name": "Validar a funcionalidade da API para Cadastrar estudantes",
+    "description": "\t\t\t\tValidar a funcionalidade da API para listar todos os estudantes cadastrados em ordem alfabética e livros não duplicados\n\t\t\t\tValidar a funcionalidade da API para alterar cadastro do estudante",
+    "id": "validar-a-funcionalidade-da-api-para-cadastrar-estudantes",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/APIControleLivro.feature",
+    "tags": [
+      {
+        "name": "@APIControleLivro",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

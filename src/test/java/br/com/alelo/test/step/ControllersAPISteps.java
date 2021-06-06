@@ -80,7 +80,7 @@ public class ControllersAPISteps extends SpringIntegrationTest {
     @Dado("que eu tenha os dados para efetuar a alteracao do estudante")
     public void queEuTenhaOsDadosParaEfetuarAAlteracaoDoEstudante(DataTable dataTable) {
         studentUpdateDTO = this.userServices.getUserFromCpf(dataTable);
-        cpf = this.userServices.cpfPatch(dataTable);
+        cpf = this.userServices.patchCpf(dataTable);
     }
     @Quando("enviar a requisicao {string} para a API da biblioteca")
     public void enviarARequisicaoParaAAPIDaBiblioteca(String verbo) {

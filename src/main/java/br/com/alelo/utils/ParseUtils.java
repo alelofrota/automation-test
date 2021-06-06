@@ -11,6 +11,8 @@ import io.cucumber.datatable.DataTable;
 
 public class ParseUtils {
 
+
+    //Mapeamento e Json
     public static <M> M jsonToObject(String pathJson, Class<M> clazz) {
         try {
             ObjectMapper mapper = new ObjectMapper();

@@ -19,6 +19,11 @@ public class UserServiceAction implements ApiService{
     private Response response;
     private static String cpf = "";
 
+    /*
+    Métodos utilizados com o framework Rest Assured definindo anteriormente o metodo response da biblioteca
+    *Para auxiliar na validação dos verbos http
+     */
+    
     private RequestSpecBuilder getRequestHeader() {
         RequestSpecBuilder request = new RequestSpecBuilder();
         request.setAccept("*/*");
@@ -85,7 +90,7 @@ public class UserServiceAction implements ApiService{
                 .email(ParseUtils.mapperDataTable(dataTable, 2)).build();
     }
 
-    public String cpfPatch(DataTable dataTable) {
+    public String patchCpf(DataTable dataTable) {
         return ParseUtils.mapperDataTable(dataTable, 0);
     }
 

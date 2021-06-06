@@ -10,6 +10,8 @@ public class ListUtils {
 
         final Set<String> setToReturn = new HashSet<String>(listBooks);
         return setToReturn.size() > 0;
+
+        //Metodo criado para definir a lista de livros encontrados na biblioteca
     }
 
 }

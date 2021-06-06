@@ -48,7 +48,6 @@ public class ControllersAPISteps extends SpringIntegrationTest {
     @Então("validar retorno {int}")
     public void validarRetorno(Integer status) {
         assertThat(this.userServices.getResponse().statusCode(), is(status));
-
     }
 
     //------------------LISTAGEM------------------------------

@@ -113,7 +113,10 @@ Serviços disponiveis:
 -	Junit
 
 # **Envio do desafio**
+<<<<<<< HEAD
+- Criar um Fork a partir desse repositório com o padrão: desafio-api-alelo-{nome do participante} 
+=======
 -	Criar um Fork a partir desse repositório com o padrão: desafio-api-alelo-{nome do participante} 
+>>>>>>> 3693c5762a9bccc8442c9d64670a2a93e4cdfa93
 -   Abrir e um Pull Request
 
-Mão na massa!

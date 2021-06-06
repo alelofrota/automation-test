@@ -3,7 +3,7 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2021-06-06T02:19:27.468Z",
+        "start_timestamp": "2021-06-06T02:35:45.105Z",
         "line": 8,
         "name": "Cadastrar o estudante e seus livros",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 411000000,
+              "duration": 19000000,
               "status": "passed"
             },
             "line": 9,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 3690000000,
+              "duration": 2662000000,
               "status": "passed"
             },
             "line": 12,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 13,
@@ -94,7 +94,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-06T02:19:31.951Z",
+        "start_timestamp": "2021-06-06T02:35:47.875Z",
         "line": 17,
         "name": "Listar todos estudantes cadastrados por ordem alfabetica, validando o único cadastro e livros não duplicados.",
         "description": "",
@@ -104,7 +104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 135000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 18,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "line": 20,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 15000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 21,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 31000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 22,
@@ -178,7 +178,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-06T02:19:32.174Z",
+        "start_timestamp": "2021-06-06T02:35:48.025Z",
         "line": 25,
         "name": "Deve alterar o cadastro do estudante",
         "description": "",
@@ -188,7 +188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 26,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 616000000,
+              "duration": 181000000,
               "status": "passed"
             },
             "line": 29,

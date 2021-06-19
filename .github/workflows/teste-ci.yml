@@ -4,7 +4,6 @@ jobs:
   integration-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Integration Test
       - uses: actions/checkout@v2
       - uses: qcastel/github-actions-maven-cmd@master
       - run: mvn --version

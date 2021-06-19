@@ -103,6 +103,8 @@ Serviços disponiveis:
 **4.Descrição dos bugs encontrados abaixo:**
 - **BUGS:**
 
+    - Ao inserir um usuário com lívros, os lívros não estão sendo salvos, mesmo sendo retornados no método POST; 
+
 # O que será um diferencial
 -	PIPE em qualquer ferramenta de CI
 

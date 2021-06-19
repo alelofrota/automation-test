@@ -31,5 +31,9 @@ public class StudentDTO {
     private String cpf;
     
     private List<BookDTO> books;
-    
+
+    public int compareTo(StudentDTO student) {
+        return this.name.compareToIgnoreCase(student.getName());
+    }
+
 }

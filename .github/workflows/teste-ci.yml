@@ -1,0 +1,8 @@
+name: teste-ci
+on: [push]
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ls

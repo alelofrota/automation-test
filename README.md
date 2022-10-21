@@ -102,6 +102,10 @@ Serviços disponiveis:
 
 **4.Descrição dos bugs encontrados abaixo:**
 - **BUGS:**
+   4.1 - Sistema esta permitindo cadastrar livros repetidos para estudante
+   4.2 - Serviço de cadastro esta permitindo cadastrar estudante sem informar CPF valido
+   4.3 - Sistema não retorna estudantes em ordem alfabética
+   
 
 # O que será um diferencial
 -	PIPE em qualquer ferramenta de CI
